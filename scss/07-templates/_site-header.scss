@@ -1,0 +1,14 @@
+@use '../01-settings/' as *;
+
+.site-header {
+    background: url('../../assets/header2.jpg') center/cover;
+    height: 100vh;
+    position: relative;
+
+    &__h1 {
+        position: absolute;
+        bottom: 40%;
+        width: 100%;
+        text-align: center;
+    }
+}
