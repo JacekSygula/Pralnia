@@ -1,14 +1,22 @@
 @use '../01-settings/' as *;
 
 .site-header {
-    background: url('../../assets/header2.jpg') center/cover;
+    background: url('../assets/header2.jpg') center/cover;
     height: 100vh;
     position: relative;
+    justify-content: space-between;
+    display: flex;
 
-    &__h1 {
+    &__blackout {
         position: absolute;
-        bottom: 40%;
+    }
+
+    &__nav {
+        display: flex;
+
+        position: absolute;
         width: 100%;
-        text-align: center;
+        // margin-top: $grid-base * 3;
+        background-color: $color-black;
     }
 }
