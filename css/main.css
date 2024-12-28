@@ -56,4 +56,24 @@ table {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Rubik vinyl";
+}
+
+p {
+  font-family: "Bebas Neue";
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */
