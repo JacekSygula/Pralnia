@@ -139,4 +139,23 @@ a {
   }
 }
 
+.btn {
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  text-align: center;
+  width: 200px;
+  transition-duration: 0.5s;
+}
+.btn--electric-indigo {
+  background-color: #4519A3;
+}
+.btn--electric-indigo:hover {
+  background-color: #301962;
+}
+
 /*# sourceMappingURL=main.css.map */
